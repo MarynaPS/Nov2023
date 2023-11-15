@@ -1,0 +1,20 @@
+@media screen  and (max-width: 480px){
+     header{
+        width: 100vw;
+        height: 15vh;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .boxB{
+        width: 100vw;
+        height: 70vh;
+        background-color: pink;
+    }
+    .boxC{
+        width: 100vw;
+        height: 15vh;
+        background-color: #d5ffc0;
+    }
+
+}

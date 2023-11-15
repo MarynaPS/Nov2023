@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 75vw;
+    height: 60vh;
+    background-color: burlywood;
+}
+article{
+    width: 25vw;
+    height: 60vh;
+    background-color: midnightblue;
+}
+div{
+    display: flex;
+}
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #a9232e;
+}

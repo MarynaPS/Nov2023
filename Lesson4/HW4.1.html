@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Satisfy&display=swap');
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        main{
+            width: 40vw;
+            height: 80vh;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 5px solid lightgrey;
+        }
+        footer{
+            width: 40vw;
+            height: 10vh;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid lightgrey;
+            margin: 10px;
+        }
+        div{
+            font-family: 'Satisfy', cursive;
+            font-size: 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        form{
+            flex-direction: column;
+            font-family: 'Montserrat', sans-serif;
+        }
+        input[type=text]{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+            border: 1px solid lightgrey;
+            font-size: 1.5rem;
+        }
+        input[type=password]{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+            border: 1px solid lightgrey;
+            font-size: 1.5rem;
+        }
+        button{
+            font-family: 'Montserrat', sans-serif;
+            background-color: #8bbff1;
+            margin-top: 10px;
+            border-radius:10px;
+            border: none;
+            width: 60%;
+            padding: 15px;
+            color: white;
+        }
+        h5{
+            font-family: 'Montserrat', sans-serif;
+            color: #23437c;
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            color: #646262;
+            font-size:1.5rem;
+        }
+        h3{
+            font-family: 'Montserrat', sans-serif;
+            color: #0f4fbb;
+            font-size:1.5rem;
+        }
+        footer h6{
+            font-family: 'Montserrat', sans-serif;
+            color: #100f0f;
+        }
+        footer div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Instagram</h1>
+        </div>
+        <form>
+            <label for="name"></label>
+            <input type="text" id="name" name="username" placeholder="Номер телефону, ім'я користувача" required>
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Пароль" required>
+
+        </form>
+        <button>Увійти</button>
+        <p>АБО</p>
+        <div>
+            <img width="48" height="48" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/>
+            <h5>Увійти чрез Facebook</h5>
+        </div>
+        <h3>Забули пароль?</h3>
+    </main>
+    <footer>
+        <div>
+            <h6>Не маєте облікового запису?</h6>
+            <h5>Зареєструйтесь</h5>
+        </div>
+    </footer>
+</body>
+</html>

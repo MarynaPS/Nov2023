@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        sup{
+            color: red;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            background-color: #7BC5C1;
+        }
+        sup{
+            color: darksalmon;
+        }
+        input{
+            width: 100px;
+        }
+        textarea{
+            resize: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Введите свое имя</label>
+        <input type="text" id="name" name="username" placeholder="Anna" required><sup>*</sup>
+
+        <label for="password">Введите свой пароль</label>
+        <input type="password" id="password" name="password" placeholder="qwerty123" required><sup>*</sup>
+
+        <label for="email">Введите свой E-mail</label>
+        <input type="email" id="email" name="email">
+
+        <label for="age">Введите свой возраст</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+
+        <label>Стать:</label>
+        <label> <input type="radio" name="gender" value="famale">Женская</label>
+        <label> <input type="radio" name="gender" value="male">Мужская</label>
+
+        <label>
+            <input type="checkbox" name="newsletter"> Подпись на новости
+        </label>
+        <label for="c">Країна:</label>
+        <select id="c">
+            <option value=" ">Оберить країну</option>
+            <option value="ua">Україна</option>
+            <option value="usa">США</option>
+            <option value="de">Німечинна</option>
+            <option value="sp">Іспанія</option>
+        </select>
+
+        <label for="phone">Телефон:</label>
+        <select id="phone">
+            <optgroup label="Apple">
+                <option value="IPfone X">IPfone X</option>
+                <option value="IPfone XS">IPfone XS</option>
+                <option value="IPfone XM">IPfone XM</option>
+            </optgroup>
+            <optgroup label="Samsung">
+                <option value="Samsung X">Samsung X</option>
+                <option value="Samsung XS">Samsung XS</option>
+                <option value="Samsung XM">Samsung XM</option>
+            </optgroup>
+        </select>
+
+        <label>Введить свій коментар: <br>
+            <textarea rows="4" cols="20" placeholder="text"></textarea>
+        </label>
+        <input type="date">
+
+        <input type="reset" value="Скинути">
+        <input type="submit" value="Відправити">
+    </form>
+
+</body>
+</html>

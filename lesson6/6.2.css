@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+header, footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(176, 165, 168, 0.39);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pink{
+    width: 20vw;
+    height: 60vh;
+    background-color: pink;
+}
+.green{
+    width: 60vw;
+    height: 60vh;
+    background-color: #d5ffc0;
+}
+main{
+    display: none;
+}

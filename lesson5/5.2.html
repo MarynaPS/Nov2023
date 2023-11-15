@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        ol{
+            list-style-type: georgian;
+        }
+        ol>li::after{
+            content: "!";
+            color: #0f4fbb;
+            font-size: 20px;
+        }
+        ol.list>li{
+            color: crimson;
+        }
+        ul>li::before{
+            content: " ";
+            background-image: url("https://img.icons8.com/office/16/kawaii-ice-cream.png");
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background-size: cover;
+            margin-right: 5px;
+        }
+        ol>li::first-letter{
+            color: #a9232e;
+        }
+        .box>li:nth-child(odd){
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<ul class="box">
+    <li>Lorem ipsum dolor.</li>
+    <li>Deleniti ex, officiis</li>
+    <li>Explicabo, quaerat sit?</li>
+    <li>Autem, sequi voluptatibus?</li>
+    <li>Aliquid, est praesentium.
+        <ol>
+            <li>Lorem</li>
+            <li>Lorem</li>
+            <li>Lorem</li>
+        </ol>
+    </li>
+</ul>
+
+</body>
+</html>

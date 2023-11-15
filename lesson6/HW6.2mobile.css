@@ -1,0 +1,29 @@
+@media screen  and (max-width: 480px){
+    header{
+        width: 100vw;
+        height: 10vh;
+    }
+    .flex1 {
+        flex-direction: column;
+    }
+    .boxB {
+        width: 100vw;
+        height: 40vh;
+    }
+    .boxF {
+        width: 100vw;
+        height: 10vh;
+        position: absolute;
+        bottom: -2%;
+    }
+    .flex2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        margin: 30px 5px;
+
+    }
+}
